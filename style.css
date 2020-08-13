@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  background: #ededed;
+  display: flex;
+  flex-direction: column;
+}
+
+body,
+input {
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #009588;
+  padding: 24px 0;
+  color: #fff;
+}
+
+header img {
+  height: 80px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+header p {
+  text-align: center;
+  max-width: 320px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+main form {
+  display: flex;
+  flex-direction: column;
+}
+
+main form label {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+main form label span {
+  font-size: 12px;
+  font-weight: 400;
+  font-style: italic;
+  position: absolute;
+  top: 0;
+  margin-left: 4px;
+}
+
+main form input {
+  font-size: 16px;
+  height: 48px;
+  width: 320px;
+  border: 1px solid #3030303f;
+  border-radius: 6px;
+  padding: 0 16px;
+  margin-bottom: 12px;
+}
+
+main form input::-webkit-outer-spin-button,
+main form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+main form button {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  height: 48px;
+  width: 320px;
+  border: none;
+  border-radius: 6px;
+  padding: 0 16px;
+  background: #009588;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  color: #303030f5;
+}
